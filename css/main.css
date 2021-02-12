@@ -1,0 +1,96 @@
+
+
+body {
+    background-color: #E8E8E8;
+}
+
+/********THE MAIN BLOCKS OF THE SITE - VISION BOARD IS THE PARENT OF BLOCK*****/
+
+#vision-board {
+    background-image: url("../img/background.png");
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    height: 850px; 
+    margin: 50px auto 125px auto;
+    text-transform: uppercase;
+    width: 1200px;
+}
+
+
+.block {
+    box-sizing: border-box;
+    float: left;
+    width: 400px;
+}
+
+/********MAKING SURE THAT THE FIRST BLOCKS IN THE SECOND AND THIRD ROW CLEAR AND THE BLOCKS ALL FORMAT CORRECTLY********/
+
+.first-block-clear {
+    clear: both;
+}
+
+/******=SETTING THE HEIGHTS OF THE BLOCKS********/
+
+.small-block {
+    height: 210px;
+    padding: 15px 30px 20px 30px;
+}
+
+.big-block {
+    height: 430px;
+    padding: 40px;
+}
+
+/******ALINGING THE CONTENT INSIDE OF THE BLOCKS*******/
+
+.center-align {
+    text-align: center;
+}
+
+.right-align {
+    text-align: right;
+}
+
+/******CHANGING THE BACKGROUND COLOR OF THE BLOCKS*****/
+
+.light-bg {
+    background-color: #ffffff;
+}
+
+.dark-bg {
+    background-color: #3B3B3B;
+}
+
+
+/*******STYLELING THE FONT OF THE MIDDLE BLOCK*********/
+
+.title-color {
+    color: #ffffff;
+}
+
+#cursive-font {
+    color: #ffffff;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 38px;
+}
+
+/*********ADDING THE YELLOW HIGHLIGHT********/
+
+.highlight {
+    background-color: #FFF44F;
+}
+
+/**********ADJUSTING THE FONT SIZES*********/
+
+.large-font {
+    font-size: 38px;
+    text-transform: none;
+}
+
+.title-font-size {
+    font-size: 30px;
+}
+
+
+
